@@ -1,5 +1,10 @@
 # ControlBird
 
+Related Author : [Eunjung Ju](http://mrl.snu.ac.kr/~ejjoo/), [Jungdam Won](http://mrl.snu.ac.kr/~nonaxis/)
+
+Related Publication : [Transaction on Graphincs 2013](http://mrl.snu.ac.kr/research/ProjectBird/birdFlight.htm)
+
+
 This code was written for and is being made available to accompany the (ACM Transactions on Graphics, 2013) "(Data-driven Control of Flapping Flight)"
 
 For updates to this code, please check our website, [mrl.snu.ac.kr](http://mrl.snu.ac.kr). 
