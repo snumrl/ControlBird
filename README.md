@@ -32,7 +32,7 @@ Objective: Matrix calculation in FEM
 Version: R2011b
 
 
-[Freeglut](Link: http://freeglut.sourceforge.net/)
+[Freeglut](http://freeglut.sourceforge.net/)
 
 Objective: Glut for free
 Version: 2.8.0
