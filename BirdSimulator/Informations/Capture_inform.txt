@@ -1,0 +1,16 @@
+// enum	BirdName			{PIGEON, ARONG	};
+// 	enum	MarkerName			{m_head, m_cback, m_lshoulder, m_rshoulder, m_lelbow, m_relbow, m_lwrist, m_rwrist, m_lhand, m_rhand, m_spine, m_ltail, m_rtail, m_ctail, maxMarkerName	};
+// current bird	: pigeon (0), arong (1)
+// current bird의 값만 바꿔주면, 이하의 값들 중에서 알아서 해당 bird에 해당하는 정보를 사용
+0	
+
+// capture fps
+240
+
+// name of capture data
+pigeon	arong	
+
+// number of clips
+13	0		// pigeon arong
+
+

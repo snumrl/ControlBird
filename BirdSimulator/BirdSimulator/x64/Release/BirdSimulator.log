@@ -1,0 +1,69 @@
+﻿빌드 시작: 2014-03-14 오후 3:06:46
+     1>2 노드의 "C:\Temp\BirdShopOpenSource\BirdSimulator\BirdSimulator\BirdSimulator.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "x64\Release\BirdSimulator.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I../../BASE/INCLUDE /Zi /nologo /W1 /WX- /O2 /Oi /GL /D dDOUBLE /D _MBCS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt Bird.cpp Body.cpp CaptureMotion.cpp Controller.cpp Feathers.cpp GUI.cpp main.cpp MeshModel.cpp PhyEngine.cpp RenderBird.cpp SystemState.cpp util.cpp
+         Bird.cpp
+         Body.cpp
+         CaptureMotion.cpp
+         Controller.cpp
+         Feathers.cpp
+         GUI.cpp
+         main.cpp
+         MeshModel.cpp
+         PhyEngine.cpp
+         RenderBird.cpp
+         SystemState.cpp
+         util.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Temp\BirdShopOpenSource\BirdSimulator\BirdSimulator.exe" /NOLOGO /LIBPATH:../../BASE/LIB/X64 /LIBPATH:"C:\Program Files\MATLAB\R2011b\extern\lib\win64\microsoft" ode_double.lib sisl.lib mclmcrrt.lib freeglut.lib FemFeather.lib mathclass.lib libmatlab.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\BirdSimulator.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Temp\BirdShopOpenSource\BirdSimulator\BirdSimulator.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Temp\BirdShopOpenSource\BirdSimulator\BirdSimulator.lib" /MACHINE:X64 x64\Release\Bird.obj
+         x64\Release\Body.obj
+         x64\Release\CaptureMotion.obj
+         x64\Release\Controller.obj
+         x64\Release\Feathers.obj
+         x64\Release\GUI.obj
+         x64\Release\main.obj
+         x64\Release\MeshModel.obj
+         x64\Release\PhyEngine.obj
+         x64\Release\RenderBird.obj
+         x64\Release\SystemState.obj
+         x64\Release\util.obj
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+     1>FemFeather.lib(featherShellElement.obj) : warning LNK4099: 'vc100.pdb' PDB를 'FemFeather.lib(featherShellElement.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>FemFeather.lib(featherShellMesh.obj) : warning LNK4099: 'vc100.pdb' PDB를 'FemFeather.lib(featherShellMesh.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>FemFeather.lib(featherShellMeshSim.obj) : warning LNK4099: 'vc100.pdb' PDB를 'FemFeather.lib(featherShellMeshSim.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>FemFeather.lib(featherShellEnergy.obj) : warning LNK4099: 'vc100.pdb' PDB를 'FemFeather.lib(featherShellEnergy.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>FemFeather.lib(profile.obj) : warning LNK4099: 'vc100.pdb' PDB를 'FemFeather.lib(profile.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>FemFeather.lib(featherShellMeshMW.obj) : warning LNK4099: 'vc100.pdb' PDB를 'FemFeather.lib(featherShellMeshMW.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>FemFeather.lib(featherShellMeshAero.obj) : warning LNK4099: 'vc100.pdb' PDB를 'FemFeather.lib(featherShellMeshAero.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>FemFeather.lib(femMatlab.obj) : warning LNK4099: 'vc100.pdb' PDB를 'FemFeather.lib(femMatlab.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>mathclass.lib(addition.obj) : warning LNK4099: 'vc100.pdb' PDB를 'mathclass.lib(addition.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>mathclass.lib(cross_product.obj) : warning LNK4099: 'vc100.pdb' PDB를 'mathclass.lib(cross_product.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>mathclass.lib(dot_product.obj) : warning LNK4099: 'vc100.pdb' PDB를 'mathclass.lib(dot_product.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>mathclass.lib(interval.obj) : warning LNK4099: 'vc100.pdb' PDB를 'mathclass.lib(interval.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>mathclass.lib(matrix.obj) : warning LNK4099: 'vc100.pdb' PDB를 'mathclass.lib(matrix.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>mathclass.lib(matrix_mul.obj) : warning LNK4099: 'vc100.pdb' PDB를 'mathclass.lib(matrix_mul.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>mathclass.lib(matrixN.obj) : warning LNK4099: 'vc100.pdb' PDB를 'mathclass.lib(matrixN.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>mathclass.lib(position.obj) : warning LNK4099: 'vc100.pdb' PDB를 'mathclass.lib(position.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>mathclass.lib(quater.obj) : warning LNK4099: 'vc100.pdb' PDB를 'mathclass.lib(quater.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>mathclass.lib(scalar_div.obj) : warning LNK4099: 'vc100.pdb' PDB를 'mathclass.lib(scalar_div.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>mathclass.lib(scalar_mul.obj) : warning LNK4099: 'vc100.pdb' PDB를 'mathclass.lib(scalar_mul.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>mathclass.lib(smatrixN.obj) : warning LNK4099: 'vc100.pdb' PDB를 'mathclass.lib(smatrixN.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>mathclass.lib(subtraction.obj) : warning LNK4099: 'vc100.pdb' PDB를 'mathclass.lib(subtraction.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>mathclass.lib(transf.obj) : warning LNK4099: 'vc100.pdb' PDB를 'mathclass.lib(transf.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>mathclass.lib(unit_vector.obj) : warning LNK4099: 'vc100.pdb' PDB를 'mathclass.lib(unit_vector.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>mathclass.lib(vector3.obj) : warning LNK4099: 'vc100.pdb' PDB를 'mathclass.lib(vector3.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+     1>mathclass.lib(vectorN.obj) : warning LNK4099: 'vc100.pdb' PDB를 'mathclass.lib(vectorN.obj)' 또는 'C:\Temp\BirdShopOpenSource\BirdSimulator\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+         BirdSimulator.vcxproj -> C:\Temp\BirdShopOpenSource\BirdSimulator\BirdSimulator.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Temp\BirdShopOpenSource\BirdSimulator\BirdSimulator.exe;#1" /manifest x64\Release\BirdSimulator.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         "x64\Release\BirdSimulator.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "x64\Release\BirdSimulator.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Temp\BirdShopOpenSource\BirdSimulator\BirdSimulator\BirdSimulator.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:19.30

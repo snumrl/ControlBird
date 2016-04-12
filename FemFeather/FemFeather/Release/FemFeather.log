@@ -1,0 +1,17 @@
+﻿Build started 2013-11-20 오후 4:56:28.
+     1>Project "D:\BirdShopOpenSource\FemFeather\FemFeather\FemFeather.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\FemFeather.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         FemFeather.vcxproj -> D:\BirdShopOpenSource\FemFeather\Release\FemFeather.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\FemFeather.unsuccessfulbuild".
+         Touching "Release\FemFeather.lastbuildstate".
+     1>Done Building Project "D:\BirdShopOpenSource\FemFeather\FemFeather\FemFeather.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.27

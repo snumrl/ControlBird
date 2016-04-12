@@ -1,0 +1,4 @@
+// Control Information
+
+0.0001 // PD gain of delta state
+0.0001 // PD gain of delta derivative state

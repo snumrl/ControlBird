@@ -1,0 +1,3 @@
+30	// FPS
+80	// simulation step
+10	// steps 기준 1/8배속

@@ -1,0 +1,24 @@
+﻿Build started 2013-11-09 오전 3:16:29.
+     1>Project "D:\BirdShopOpenSource\FemFeather\FemFeather\FemFeather.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\FemFeather.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\WORK\INCLUDE\FEATHER /ID:\WORK\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\WORK\INCLUDE\Feather\featherShellMeshAero.cpp
+         featherShellMeshAero.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\BirdShopOpenSource\FemFeather\Debug\FemFeather.lib" /NOLOGO Debug\featherShellElement.obj
+         Debug\featherShellEnergy.obj
+         Debug\featherShellMesh.obj
+         Debug\featherShellMeshAero.obj
+         Debug\featherShellMeshMW.obj
+         Debug\featherShellMeshSim.obj
+         Debug\profile.obj
+         FemFeather.vcxproj -> D:\BirdShopOpenSource\FemFeather\Debug\FemFeather.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\FemFeather.unsuccessfulbuild".
+         Touching "Debug\FemFeather.lastbuildstate".
+     1>Done Building Project "D:\BirdShopOpenSource\FemFeather\FemFeather\FemFeather.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.41
